@@ -4,6 +4,9 @@ node_modules/
 # Generated PDF output (reproducible from invoices.csv)
 *.pdf
 
+# Generated SQLite database
+*.db
+
 # Environment variables (secrets — never commit)
 .env
 .env.*
@@ -14,3 +17,6 @@ npm-debug.log*
 
 # Local Claude Code settings (personal, not shared)
 .claude/settings.local.json
+
+# Code-review hook state (ephemeral, per-machine)
+.claude/.last-review-hash

@@ -5,10 +5,13 @@
   "scripts": {
     "csv-to-pdf": "node csv-to-pdf.ts",
     "generate-invoices": "node generate-invoices.ts",
+    "pdf-to-db": "node pdf-to-db.ts",
+    "top-vendors": "node top-vendors.ts",
     "test": "node --test",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "pdfjs-dist": "^6.1.200",
     "pdfkit": "^0.19.1"
   },
   "devDependencies": {
