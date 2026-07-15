@@ -1,0 +1,19 @@
+{
+  "name": "csv-pdf-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "csv-to-pdf": "node csv-to-pdf.ts",
+    "generate-invoices": "node generate-invoices.ts",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pdfkit": "^0.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/pdfkit": "^0.17.6",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Generated PDF output (reproducible from invoices.csv)
+*.pdf
+
+# Logs
+npm-debug.log*
