@@ -4,6 +4,11 @@ node_modules/
 # Generated PDF output (reproducible from invoices.csv)
 *.pdf
 
+# Environment variables (secrets — never commit)
+.env
+.env.*
+!.env.example
+
 # Logs
 npm-debug.log*
 
